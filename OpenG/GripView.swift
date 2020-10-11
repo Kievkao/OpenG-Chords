@@ -8,23 +8,26 @@
 import SwiftUI
 
 struct GripView: View {
-    var chord: Chord = Chord.am
+    private enum Constants {
+        static let horizontalPadding: CGFloat = 10.0
+    }
+
+    var chord: Chord
+    private let strings: [Int] = Array(repeating: 0, count: Configs.stringsNumber)
 
     var body: some View {
         VStack(alignment: .center) {
             GripHeaderView()
-            FretView(jams: chord.jamms(forFret: 0))
-            FretView(jams: chord.jamms(forFret: 1))
-            FretView(jams: chord.jamms(forFret: 2))
-            FretView(jams: chord.jamms(forFret: 3))
-            FretView(jams: chord.jamms(forFret: 4))
+            ForEach(Array(strings.enumerated()), id: \.offset) { index, _ in
+                FretView(jams: chord.jamms(forFret: index))
+            }
             Spacer()
-        }
+        }.padding(.horizontal, Constants.horizontalPadding)
     }
 }
 
 struct GripView_Previews: PreviewProvider {
     static var previews: some View {
-        GripView()
+        GripView(chord: Chord.am)
     }
 }
