@@ -13,6 +13,14 @@
 		3EEA030925336E4D0030227E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EEA030825336E4D0030227E /* Preview Assets.xcassets */; };
 		3EEA031425336E4D0030227E /* OpenGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA031325336E4D0030227E /* OpenGTests.swift */; };
 		3EEA031F25336E4D0030227E /* OpenGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA031E25336E4D0030227E /* OpenGUITests.swift */; };
+		3EEA033025336E530030227E /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA032F25336E530030227E /* Chord.swift */; };
+		3EEA0335253371550030227E /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA0334253371550030227E /* Int+Extensions.swift */; };
+		3EEA033A253373280030227E /* GripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA0339253373280030227E /* GripView.swift */; };
+		3EEA033F253376AE0030227E /* GripHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA033E253376AE0030227E /* GripHeaderView.swift */; };
+		3EEA0344253379350030227E /* FretView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA0343253379350030227E /* FretView.swift */; };
+		3EEA034925337A3A0030227E /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA034825337A3A0030227E /* StringView.swift */; };
+		3EEA035125337D280030227E /* ChordsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA035025337D280030227E /* ChordsParser.swift */; };
+		3EEA035625337F580030227E /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA035525337F580030227E /* Configs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		3EEA031A25336E4D0030227E /* OpenGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EEA031E25336E4D0030227E /* OpenGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGUITests.swift; sourceTree = "<group>"; };
 		3EEA032025336E4D0030227E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EEA032F25336E530030227E /* Chord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chord.swift; sourceTree = "<group>"; };
+		3EEA0334253371550030227E /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		3EEA0339253373280030227E /* GripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GripView.swift; sourceTree = "<group>"; };
+		3EEA033E253376AE0030227E /* GripHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GripHeaderView.swift; sourceTree = "<group>"; };
+		3EEA0343253379350030227E /* FretView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretView.swift; sourceTree = "<group>"; };
+		3EEA034825337A3A0030227E /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
+		3EEA035025337D280030227E /* ChordsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordsParser.swift; sourceTree = "<group>"; };
+		3EEA035525337F580030227E /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +116,14 @@
 				3EEA030525336E4D0030227E /* Assets.xcassets */,
 				3EEA030A25336E4D0030227E /* Info.plist */,
 				3EEA030725336E4D0030227E /* Preview Content */,
+				3EEA032F25336E530030227E /* Chord.swift */,
+				3EEA035025337D280030227E /* ChordsParser.swift */,
+				3EEA0334253371550030227E /* Int+Extensions.swift */,
+				3EEA0339253373280030227E /* GripView.swift */,
+				3EEA033E253376AE0030227E /* GripHeaderView.swift */,
+				3EEA0343253379350030227E /* FretView.swift */,
+				3EEA034825337A3A0030227E /* StringView.swift */,
+				3EEA035525337F580030227E /* Configs.swift */,
 			);
 			path = OpenG;
 			sourceTree = "<group>";
@@ -259,6 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EEA033025336E530030227E /* Chord.swift in Sources */,
+				3EEA035125337D280030227E /* ChordsParser.swift in Sources */,
+				3EEA033F253376AE0030227E /* GripHeaderView.swift in Sources */,
+				3EEA0335253371550030227E /* Int+Extensions.swift in Sources */,
+				3EEA0344253379350030227E /* FretView.swift in Sources */,
+				3EEA035625337F580030227E /* Configs.swift in Sources */,
+				3EEA033A253373280030227E /* GripView.swift in Sources */,
+				3EEA034925337A3A0030227E /* StringView.swift in Sources */,
 				3EEA030425336E4C0030227E /* ContentView.swift in Sources */,
 				3EEA030225336E4C0030227E /* OpenGApp.swift in Sources */,
 			);
